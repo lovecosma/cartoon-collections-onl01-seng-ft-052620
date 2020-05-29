@@ -12,7 +12,7 @@ new_array = []
 veggies.each do |veggie|
 array = veggie.chars
 array.first.upcase
-array.joinm
+array.join
 end
 puts new_array
 end
