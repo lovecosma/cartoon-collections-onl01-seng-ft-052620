@@ -7,6 +7,9 @@ def roll_call_dwarves(dwarves)
   end
 
 def summon_captain_planet(veggies)
+LETTERS = [ 
+[]
+]
 veggies.collect do |veggie|
  veggie.chars
 end
