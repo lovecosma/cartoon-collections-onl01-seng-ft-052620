@@ -13,7 +13,7 @@ veggies.each do |veggie|
 array = veggie.chars
 new_array << array.first.upcase.join
 end
-
+puts new_array
 end
 
 def long_planeteer_calls# code an argument here
