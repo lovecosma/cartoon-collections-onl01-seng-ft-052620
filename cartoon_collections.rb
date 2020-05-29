@@ -12,8 +12,8 @@ def roll_call_dwarves(dwarves)
 def summon_captain_planet(veggies)
 veggies.each do |veggie|
  LETTERS << veggie.chars
- puts LETTERS
 end
+puts LETTERS
 end
 
 def long_planeteer_calls# code an argument here
