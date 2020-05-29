@@ -10,12 +10,8 @@ def roll_call_dwarves(dwarves)
 def summon_captain_planet(veggies)
 new_array = []
 veggies.each do |veggie|
-array = veggie.chars
-array.first.upcase
-array.join
-new_array << array
+
 end
-puts new_array
 end
 
 def long_planeteer_calls# code an argument here
