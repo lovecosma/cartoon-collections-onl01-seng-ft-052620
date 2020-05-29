@@ -1,3 +1,6 @@
+LETTERS = [
+  ['']
+]
 def roll_call_dwarves(dwarves)
   position = 1
   dwarves.collect do |dwarf|
@@ -7,7 +10,6 @@ def roll_call_dwarves(dwarves)
   end
 
 def summon_captain_planet(veggies)
-LETTERS = [['']]
 veggies.each do |veggie|
  LETTERS << veggie.chars
  puts LETTERS
