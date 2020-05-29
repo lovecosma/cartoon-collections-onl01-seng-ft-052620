@@ -2,14 +2,14 @@ def roll_call_dwarves(dwarves)
   position = 1
   dwarves.collect do |dwarf|
     puts "#{position}" + ". " + "#{dwarf}"
-    position += 1 
+    position += 1
   end
   end
 
 def summon_captain_planet(veggies)
 veggies.collect do |veggie|
   
-end 
+end
 end
 
 def long_planeteer_calls# code an argument here
