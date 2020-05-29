@@ -10,8 +10,8 @@ def summon_captain_planet(veggies)
 LETTERS = [
 []
 ]
-veggies.collect do |veggie|
- veggie.chars
+veggies.each do |veggie|
+ veggie
 end
 end
 
