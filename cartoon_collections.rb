@@ -5,21 +5,21 @@ def roll_call_dwarves(dwarves)
     puts "#{position}" + ". " + "#{dwarf}"
     position += 1
   end
-  end
+end
 
 def summon_captain_planet(veggies)
-new_array = []
-veggies.collect do |veggie|
-"#{veggie.capitalize}" + "!"
-end
+  new_array = []
+  veggies.collect do |veggie|
+  "#{veggie.capitalize}" + "!"
+  end
 end
 
 def long_planeteer_calls(words)
   words.each do |word|
-    if word.length < 4
-
+    if word.length > 4
+return true 
     else
-
+return false 
     end
   end
 end
