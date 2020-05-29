@@ -2,7 +2,7 @@ def roll_call_dwarves(dwarves)
   position = 1
   dwarves.collect do |dwarf|
     position + ". " + dwarf
-  end 
+  end
   end
 
 def summon_captain_planet# code an argument here
