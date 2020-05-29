@@ -11,7 +11,7 @@ def summon_captain_planet(veggies)
 new_array = []
 veggies.each do |veggie|
 array = veggie.chars
-new_array << array.first.upcase.join
+new_array << array.first.upcase
 end
 puts new_array
 end
