@@ -8,9 +8,9 @@ def roll_call_dwarves(dwarves)
   end
 
 def summon_captain_planet(veggies)
-
 veggies.each do |veggie|
-
+array = veggie.chars
+new_array << array.first.upcase.join
 end
 
 end
