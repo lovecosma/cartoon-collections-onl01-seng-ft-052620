@@ -2,7 +2,7 @@ def roll_call_dwarves(dwarves)
   position = 1
   dwarves.collect do |dwarf|
     puts "#{position}" + ". " + "#{dwarf}"
-    poisition += 1 
+    poxsition += 1 
   end
   end
 
