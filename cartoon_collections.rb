@@ -1,4 +1,5 @@
 def roll_call_dwarves(dwarves)
+  position = 0
   dwarves.collect do |dwarf|
   end
 
