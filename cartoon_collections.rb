@@ -11,7 +11,7 @@ LETTERS = [
 []
 ]
 veggies.each do |veggie|
- veggie
+ LETTERS << veggie.chars
 end
 end
 
