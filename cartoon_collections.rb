@@ -8,7 +8,7 @@ def roll_call_dwarves(dwarves)
 
 def summon_captain_planet(veggies)
 veggies.collect do |veggie|
- puts veggie.chars
+ veggie.chars
 end
 end
 
