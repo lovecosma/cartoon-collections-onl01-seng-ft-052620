@@ -9,7 +9,7 @@ def roll_call_dwarves(dwarves)
 
 def summon_captain_planet(veggies)
 new_array = []
-veggies.each do |veggie|
+veggies.collect do |veggie|
 "#{veggie.capitalize}" + "!"
 end
 end
