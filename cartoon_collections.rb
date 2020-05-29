@@ -12,6 +12,7 @@ LETTERS = [
 ]
 veggies.each do |veggie|
  LETTERS << veggie.chars
+ puts LETTERS
 end
 end
 
