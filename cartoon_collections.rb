@@ -14,8 +14,7 @@ veggies.collect do |veggie|
 end
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(words)
 end
 
 def find_the_cheese# code an argument here
