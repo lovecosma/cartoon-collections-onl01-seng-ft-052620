@@ -8,6 +8,7 @@ def roll_call_dwarves(dwarves)
   end
 
 def summon_captain_planet(veggies)
+
 veggies.each do |veggie|
 
 end
