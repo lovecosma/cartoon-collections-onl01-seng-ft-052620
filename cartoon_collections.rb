@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarves)
   position = 1
   dwarves.collect do |dwarf|
-    "#{position}" + ". " + "#{dwarf}"
+    puts "#{position}" + ". " + "#{dwarf}"
   end
   end
 
